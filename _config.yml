@@ -3,17 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Welcome to Joyfeel's field
-subtitle: 
+title: Hexo
+subtitle:
 description:
-author: Joyfeel
+author: John Doe
 language:
 timezone:
-disqus_shortname: joyfeel
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://joyfeel.github.io
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -41,6 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
@@ -68,7 +68,4 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repository: https://github.com/joyfeel/joyfeel.github.io.git
-  branch: master
-
+  type:
